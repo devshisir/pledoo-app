@@ -1,0 +1,169 @@
+.re_terms_form_content{
+   padding: 120px 0px;
+}
+
+.re_terms_form_content h3 {
+   text-align: center;
+   font-weight: 700;
+   font-size: 19px;
+   color: #4D4C52;
+}
+
+.re_terms_form_content>p {
+   text-align: center;
+   margin-top: 40px;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 24px;
+   color: #817F89;
+}
+
+.re_terms_form_content .ter_form_box {
+   margin-top: 40px;
+}
+
+.re_terms_form_content .ter_form_box ul {
+   margin: 0;
+}
+
+.re_terms_form_content .ter_form_box ul li {
+   display: block;
+}
+
+.re_terms_form_content .ter_form_box ul li a {
+   display: block;
+   background: #F4F3F7;
+   border-radius: 8px;
+   width: 312px;
+   margin: 0 auto;
+   height: 50px;
+   line-height: 50px;
+   text-decoration: none;
+   padding: 0px 20px;
+   font-weight: 600;
+   font-size: 13px;
+   color: #4D4C52;
+   margin-top: 19px;
+   position: relative;
+   transition: 0.4s;
+   box-sizing: border-box;
+}
+
+.re_terms_form_content .ter_form_box ul li a span {
+   position: absolute;
+   right: 25px;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.re_terms_form_content .ter_form_box ul li a:hover {
+   background: #1B51F5;
+   color: #fff;
+}
+
+.re_terms_form_content .ter_form_box ul li a:hover svg:first-child rect {
+   stroke: #fff;
+}
+
+.re_terms_form_content .ter_form_box ul li a:hover svg rect:last-child {
+   fill: #fff;
+}
+
+.re_terms_form_content .ter_form_box .accept_register_btn {
+   display: block;
+   background: #1B51F5;
+   border-radius: 8px;
+   width: 312px;
+   margin: 0 auto;
+   height: 50px;
+   line-height: 50px;
+   text-decoration: none;
+   padding: 0px 20px;
+   font-weight: 600;
+   font-size: 14px;
+   color: #fff;
+   margin-top: 19px;
+   position: relative;
+   transition: 0.4s;
+   border: none;
+   cursor: pointer;
+}
+
+.re_terms_form_content .ter_form_box .accept_register_btn:hover {
+   background: #0026F8;
+}
+
+.re_terms_form_content .ter_form_box p {
+   text-align: center;
+   margin-top: 40px;
+   font-weight: 500;
+   font-size: 12px;
+   color: #C4C2CD;
+   line-height: 19px;
+}
+
+.re_terms_form_content .ter_form_box p a {
+   color: #C4C2CD;
+}
+
+.re_terms_form_content .ter_form_box p a:hover {
+   color: #0026F8;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+   .re_terms_form_content .ter_form_box ul li a {
+      width: 100%;
+   }
+
+   .re_terms_form_content .ter_form_box .accept_register_btn {
+      width: 100%;
+   }
+
+   .re_terms_form_content h3 {
+      font-size: 16px;
+   }
+
+   .re_terms_form_content>p {
+      margin-top: 16px;
+      font-size: 12px;
+      line-height: 24px;
+   }
+
+   .re_terms_form_content .ter_form_box {
+      margin-top: 15px;
+   }
+
+   .re_terms_form_content .ter_form_box p {
+      margin-top: 22px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 19px;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+   .re_terms_form_content {
+      padding: 70px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+
+   .re_terms_form_content .ter_form_box ul li a {
+      width: 100%;
+   }
+
+   .re_terms_form_content .ter_form_box .accept_register_btn {
+      width: 100%;
+   }
+
+   .re_terms_form_content>p {
+      font-size: 12px;
+      line-height: 21px;
+   }
+   .re_terms_form_content{
+      padding: 30px 0px;
+   }
+}

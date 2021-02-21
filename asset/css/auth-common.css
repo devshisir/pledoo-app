@@ -1,0 +1,243 @@
+
+.auth_main_wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.auth_form {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 20px 80px 40px 80px;
+   max-height: 100vh;
+   overflow-y: scroll;
+}
+
+@-moz-document url-prefix() { /* Disable scrollbar Firefox */
+   .auth_form{
+     scrollbar-width: none;
+   }
+}
+
+@-moz-document url-prefix() { /* Disable scrollbar Firefox */
+   .auth_footer{
+     padding-bottom: 30px;
+   }
+}
+
+.auth_form::-webkit-scrollbar {
+   width: 0px;
+   background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
+}
+
+.auth_right_banar {
+   width: 50%;
+   max-height: 100vh;
+   min-height: 100vh;
+   position: relative;
+   background-image: url(../img/banner.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.right_banar_info {
+   position: absolute;
+   width: 100%;
+   top: 50%;
+   left: 0;
+   transform: translateY(-50%);
+   text-align: center;
+}
+
+.right_banar_info h3 {
+   color: #fff;
+   font-size: 35px;
+   line-height: 43px;
+}
+
+.right_banar_info p {
+   color: rgba(255, 255, 255, 0.75);
+   margin-top: 15px;
+   line-height: 22px;
+   font-size: 15px;
+   font-weight: 500;
+}
+
+/* auth left content style  */
+.auth_header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.auth_header2{
+   justify-content: flex-end !important;
+}
+
+.auth_header .back_auth a {
+   text-decoration: none;
+   color: #C2C5CD;
+   font-weight: 500;
+   font-size: 14px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   height: 48px;
+}
+
+.auth_header .mobile_text_top_auth {
+   display: none;
+}
+
+.auth_header .mobile_text_top_auth p {
+   font-weight: 600;
+   font-size: 14px;
+   color: #9799A3;
+}
+
+.auth_header .back_auth a img {
+   margin-right: 9px;
+}
+
+.auth_header .close_auth a {
+   text-decoration: none;
+   color: #C2C5CD;
+   font-weight: 500;
+   font-size: 14px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   height: 48px;
+}
+
+.auth_header .close_auth a img {
+   margin-left: 9px;
+}
+
+.auth_footer {
+   border-top: 1px solid #dbdce4af;
+   padding-top: 20px;
+   box-sizing: border-box;
+}
+
+.auth_footer p {
+   text-align: center;
+   font-weight: 500;
+   font-size: 14px;
+   color: #9799A3;
+}
+
+.auth_footer p a {
+   color: #1B51F5;
+   font-weight: 600;
+   margin-left: 5px;
+   text-decoration: none;
+}
+
+
+/* auth common responsive */
+@media (min-width: 992px) and (max-width: 1199px) {
+   .auth_form {
+      padding: 27px 55px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .auth_form {
+      padding: 17px 18px;
+   }
+
+   .right_banar_info h3 {
+      font-size: 26px;
+      line-height: 35px;
+   }
+
+   .auth_right_banar img {
+      height: 100vh;
+   }
+
+   .auth_footer {
+      padding-top: 12px;
+   }
+
+   .auth_footer p {
+      font-size: 13px;
+   } 
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+   .auth_right_banar {
+      display: none;
+   }
+   .auth_form {
+      width: 100%;
+      padding: 20px 70px;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+   .auth_user_login {
+      padding: 60px 0px;
+   }
+}
+
+@media (max-width: 575px) {
+   .auth_right_banar {
+      display: none;
+   }
+
+   .auth_form {
+      width: 100%;
+      padding: 0px;
+   }
+
+   .auth_header {
+      background: #F1F2F5;
+      padding: 0px 20px;
+   }
+
+   .auth_header .back_auth a span {
+      display: none;
+   }
+
+   .auth_header .close_auth a span {
+      display: none;
+   }
+
+   .auth_header .mobile_text_top_auth {
+      display: block;
+   }
+
+   .auth_left_form {
+      padding: 50px 26px;
+   }
+
+   .auth_footer {
+      border-top: none;
+      padding-top: 0px;
+      padding: 20px 30px;
+      position: relative;
+   }
+
+   .auth_footer::after {
+      height: 1px;
+      width: 80%;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      content: "";
+      background: #DBDCE4;
+      position: absolute;
+   }
+
+   .auth_header2 {
+      justify-content: space-between !important;
+   }
+   .auth_header.auth_header2 .mobile_text_top_auth {
+      display: block;
+      flex: 1;
+      text-align: center;
+   }
+   
+}

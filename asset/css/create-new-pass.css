@@ -1,0 +1,176 @@
+
+/* set new pass popup style  */
+#new_pass_wrapper{
+   min-height: 100vh;
+   background: #F1F2F5;
+}
+
+.new_pass_container{
+   width: 360px;
+   background: #fff;
+   margin: 0 auto;
+   position: relative;
+   top: 60px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06), 0px 2px 0px rgba(0, 0, 0, 0.05);
+   border-radius: 16px;
+}
+
+.new_pass_header{
+   justify-content: flex-end !important;
+   display: flex;
+   padding: 15px 0px;
+   align-items: center;
+}
+
+.new_pass_header .mobile_text_header{
+   display: none;
+}
+
+.new_pass_header .mobile_text_header p{
+   font-weight: 600;
+   font-size: 14px;
+   color: #9799A3;
+}
+
+.new_pass_header .close_header{
+   padding-right: 20px;
+}
+
+.new_pass_form{
+   padding-top: 20px;
+}
+
+.new_pass_form .top_title h3{
+   font-weight: 700;
+   font-size: 17px;
+   color: #4D4C52;
+}
+.new_pass_form .top_title p{
+   margin-top: 20px;
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 20px;
+   color: #817F89;
+}
+
+.new_pass_form_wrapper{
+   padding-top: 30px;
+   padding-bottom: 25px;
+}
+
+.new_pass_form_wrapper .input_box {
+   width: 312px;
+   position: relative;
+   margin: 0 auto;
+   margin-top: 25px;
+}
+.new_pass_form_wrapper .input_box input{
+   width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background: #fff;
+    padding: 0px 24px;
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 10%);
+    border: 2px solid #ddd;
+    font-weight: 600;
+    font-size: 13px;
+    color: #4D4C52;
+    transition: 0.4s;
+}
+
+.new_pass_form_wrapper .input_box input:focus::placeholder{
+   color: transparent;
+}
+
+.new_pass_form_wrapper .input_box input:focus{
+   border-color: #1B51F5;
+   box-shadow: inset 0px 1px 4px rgb(0 0 0 / 10%), 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.new_pass_form_wrapper .input_box .input_flot_label{
+   position: absolute;
+   top: -10px;
+   left: 17px;
+   background: #fff;
+   font-weight: 500;
+   font-size: 12px;
+   padding: 4px 10px;
+   color: #C2C5CD;
+}
+.new_pass_form_wrapper .input_box .password_revel{
+   position: absolute;
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+   display: inline-flex;
+   cursor: pointer;
+}
+
+.new_pass_form_wrapper .form_submit{
+   width: 312px;
+   position: relative;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+.new_pass_form_wrapper .form_submit button{
+   width: 100%;
+    background: #1B51F5;
+    border: none;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+}
+
+.new_pass_form_wrapper .form_submit button:hover{
+   background: #0026F8;
+}
+
+/* page responsive start  */
+@media (min-width: 992px) and (max-width: 1199px) {
+   .auth_form {
+      padding: 27px 55px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+   
+}
+
+@media (max-width: 575px) {
+   .new_pass_container {
+      width: 100%;
+      top: 0px;
+      border-radius: 0px;
+   }
+   .new_pass_header{
+      background: #F1F2F5;
+   }
+   .new_pass_header .mobile_text_header{
+      display: block;
+      text-align: center;
+      flex: 1;
+      padding-left: 20px;
+   }
+   .new_pass_form{
+      padding: 40px 0px;
+   }
+   .new_pass_form_wrapper{
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   .new_pass_form_wrapper .input_box{
+      width: 97%;
+   }
+   .new_pass_form_wrapper .form_submit{
+      width: 97%;
+   }
+}

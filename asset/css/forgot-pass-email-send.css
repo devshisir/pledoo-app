@@ -1,0 +1,158 @@
+.f_pass_email_send_content{
+   padding: 100px 0px;
+}
+
+.f_pass_email_send_content .top_info h3{
+   font-weight: 700;
+   font-size: 19px;
+   color: #4D4C52;
+}
+.f_pass_email_send_content .top_info p{
+   margin-top: 30px;
+   font-size: 14px;
+   line-height: 22px;
+   color: #817F89;
+   font-weight: 500;
+}
+
+.f_pass_email_send_content .top_info p span{
+   font-weight: 600;
+   color: #4D4C52;
+}
+
+.f_pass_email_send_content .social_login_item {
+   margin: 40px 0px;
+   text-align: center;
+}
+.f_pass_email_send_content .social_login_item ul {
+   margin: 0;
+   padding: 0;
+}
+.f_pass_email_send_content .social_login_item ul li {
+   display: block;
+   margin-bottom: 15px;
+}
+.f_pass_email_send_content .social_login_item ul li a{
+   width: 312px;
+   height: 48px;
+   background: #F4F3F6;
+   display: block;
+   margin: 0 auto;
+   line-height: 48px;
+   font-weight: 600;
+   font-size: 14px;
+   text-decoration: none;
+   border-radius: 8px;
+   color: #4D4C52;
+   position: relative;
+}
+
+.f_pass_email_send_content .social_login_item ul li a .icon{
+   position: absolute;
+   top: 50%;
+   left: 20px;
+   transform: translateY(-50%);
+   display: inline-flex;
+}
+
+.f_pass_email_send_content .social_login_item ul li a:hover{
+   background: #EAF2FF;
+}
+
+.f_pass_email_send_content .chnage_email{
+   border-bottom: 1px solid #dbdce49c;
+   width: 312px;
+   margin: 0 auto;
+   padding-bottom: 25px;
+}
+.f_pass_email_send_content .chnage_email a{
+   font-weight: 600;
+   font-size: 14px;
+   text-decoration: none;
+}
+
+.f_pass_email_send_content .chnage_email a:hover{
+   text-decoration: underline;
+}
+
+.f_pass_email_send_content .resend_pass_link{
+   margin-top: 30px;
+}
+
+.f_pass_email_send_content .resend_pass_link a{
+   display: block;
+   width: 312px;
+   margin: 0 auto;
+   height: 48px;
+   line-height: 48px;
+   background: #EAF2FF;
+   text-decoration: none;
+   font-weight: 700;
+   font-size: 14px;
+   color: #1B51F5;
+   border-radius: 8px;
+}
+
+.f_pass_email_send_content .resend_pass_link a:hover{
+   background: #1B51F5;
+   color: #fff;
+}
+
+.f_pass_email_send_content .f_pass_email_send_terms_condition{
+   margin-top: 40px;
+}
+.f_pass_email_send_content .f_pass_email_send_terms_condition p{
+   font-size: 12px;
+   color: #C2C5CD;
+   line-height: 22px;
+}
+.f_pass_email_send_content .f_pass_email_send_terms_condition p a{
+   color: #C2C5CD;
+}
+
+.f_pass_email_send_content .f_pass_email_send_terms_condition p a:hover{
+   color: #1B51F5;
+}
+
+
+/* page responsive start  */
+@media (min-width: 992px) and (max-width: 1199px) {
+   .f_pass_email_send_content {
+      padding: 46px 0px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+   .f_pass_email_send_content .top_info p {
+      margin-top: 16px;
+   }
+
+   .f_pass_email_send_content .social_login_item {
+      margin: 20px 0px;
+   }
+   
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+   .f_pass_email_send_content {
+      padding: 56px 0px;
+   }
+   
+}
+
+@media (max-width: 575px) {
+   .f_pass_email_send_content .social_login_item ul li a{
+      width: 95%;
+   }
+   .f_pass_email_send_content .resend_pass_link a{
+      width: 95%;
+   }
+   .f_pass_email_send_content .chnage_email{
+      width: 95%;
+   }
+   .f_pass_email_send_content{
+      padding: 30px 0px;
+   }
+   
+}

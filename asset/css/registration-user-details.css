@@ -1,0 +1,211 @@
+.auth_user_details{
+   padding: 90px 0px;
+}
+
+.auth_user_details .top_title h3 {
+   font-weight: 700;
+   font-size: 19px;
+   color: #4D4C52;
+}
+
+.auth_user_details .user_details_form {
+   margin-top: 50px;
+}
+
+.auth_user_details .user_details_form .input_box {
+   width: 312px;
+   position: relative;
+   margin: 0 auto;
+   margin-top: 25px;
+}
+
+.auth_user_details .user_details_form .input_box input {
+   width: 100%;
+   height: 50px;
+   border-radius: 8px;
+   background: #fff;
+   padding: 0px 24px;
+   box-shadow: inset 0px 1px 4px rgb(0 0 0 / 10%);
+   border: 2px solid #ddd;
+   font-weight: 600;
+   font-size: 13px;
+   color: #4D4C52;
+   transition: 0.4s;
+}
+
+.auth_user_details .user_details_form .input_box select.select_1 {
+   width: 100%;
+   height: 50px;
+   border-radius: 8px;
+   background: #fff;
+   padding: 0px 24px;
+   box-shadow: inset 0px 1px 4px rgb(0 0 0 / 10%);
+   border: 2px solid #ddd;
+   font-weight: 600;
+   font-size: 13px;
+   color: #4D4C52;
+   transition: 0.4s;
+   -moz-appearance: none;
+   /* Firefox */
+   -webkit-appearance: none;
+   /* Safari and Chrome */
+   appearance: none;
+   background: url('../img/icons/down-arrow.svg') no-repeat right;
+   background-position: 93% center;
+}
+
+.auth_user_details .user_details_form .input_box select option {
+   font-weight: 600;
+   font-size: 13px;
+   color: #4D4C52;
+}
+
+.auth_user_details .user_details_form .input_box .select_prefix {
+   display: flex;
+   justify-content: space-between;
+}
+
+.auth_user_details .user_details_form .input_box .select_prefix .select_prefix_div {
+   position: relative;
+}
+
+.auth_user_details .user_details_form .input_box .select_prefix .select_prefix_div select.select_2 {
+   width: 100%;
+   height: 50px;
+   border-radius: 8px;
+   background: #fff;
+   padding: 0px 24px;
+   box-shadow: inset 0px 1px 4px rgb(0 0 0 / 10%);
+   border: 2px solid #ddd;
+   font-weight: 600;
+   font-size: 13px;
+   color: #4D4C52;
+   transition: 0.4s;
+   -moz-appearance: none;
+   /* Firefox */
+   -webkit-appearance: none;
+   /* Safari and Chrome */
+   appearance: none;
+   background: url('../img/icons/down-arrow.svg') no-repeat right;
+   background-position: 87% center;
+   padding-left: 43px;
+}
+
+.auth_user_details .user_details_form .input_box .select_prefix .select_prefix_div select.select_2 option {
+   font-weight: 600;
+   font-size: 13px;
+   color: #4D4C52;
+   text-align: left;
+   padding: 10px 0px;
+   height: 20px;
+}
+
+.auth_user_details .user_details_form .input_box .select_prefix div {
+   width: 47%;
+}
+
+.auth_user_details .user_details_form .input_box .select_prefix .select_prefix_div .country_flag {
+   position: absolute;
+   top: 50%;
+   left: 10px;
+   transform: translateY(-50%);
+}
+
+.auth_user_details .user_details_form .input_box input:focus {
+   border-color: #1B51F5;
+   box-shadow: inset 0px 1px 4px rgb(0 0 0 / 10%), 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.auth_user_details .user_details_form .input_box select:focus {
+   border-color: #1B51F5;
+   box-shadow: inset 0px 1px 4px rgb(0 0 0 / 10%), 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.auth_user_details .user_details_form .input_box .select_prefix .select_prefix_div select.select_2:focus {
+   border-color: #1B51F5;
+   box-shadow: inset 0px 1px 4px rgb(0 0 0 / 10%), 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.auth_user_details .user_details_form .input_box input:focus::placeholder {
+   color: transparent;
+}
+
+.auth_user_details .user_details_form .input_box .input_flot_label {
+   position: absolute;
+   top: -10px;
+   left: 17px;
+   background: #fff;
+   font-weight: 500;
+   font-size: 12px;
+   padding: 4px 10px;
+   color: #C2C5CD;
+}
+
+.auth_user_details .user_details_form .input_box .password_revel {
+   position: absolute;
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+   display: inline-flex;
+   cursor: pointer;
+}
+
+.auth_user_details .user_details_form .form_submit {
+   width: 312px;
+   position: relative;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+
+.auth_user_details .user_details_form .form_submit button {
+   width: 100%;
+   background: #1B51F5;
+   border: none;
+   height: 48px;
+   line-height: 48px;
+   font-weight: 600;
+   font-size: 14px;
+   color: #fff;
+   border-radius: 8px;
+   cursor: pointer;
+   outline: none;
+}
+
+.auth_user_details .user_details_form .form_submit button:hover {
+   background: #0026F8;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .auth_user_details {
+      padding: 50px 0px;
+   }
+
+   .user_details_auth_form {
+      max-height: 100vh;
+      overflow-y: scroll;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+   .auth_user_details {
+      padding: 50px 0px;
+   }
+
+}
+
+@media (max-width: 575px) {
+   
+   .auth_user_details .user_details_form .input_box {
+      width: 97%;
+   }
+
+   .auth_user_details .user_details_form .form_submit {
+      width: 97%;
+   }
+
+   .auth_user_details{
+      padding: 30px 0px;
+   }
+
+}
