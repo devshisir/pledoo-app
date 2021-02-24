@@ -1,0 +1,134 @@
+.dropdown_wrapper{
+   min-height: 100vh;
+   background: #fff;
+   position: relative;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.dropdown_cc_header{
+   display: flex;
+   justify-content: space-between;
+   background: #F1F2F5;
+   align-items: center;
+   padding: 4px 10px;
+   border-radius: 8px 8px 0px 0px;
+   display: none;
+}
+.dropdown_cc_header_left{
+   flex: 1;
+   text-align: center;
+   font-weight: 600;
+   font-size: 15px;
+   color: #9799A3;
+   padding-left: 23px;
+}
+.dropdown_cc_header_close{
+   box-sizing: border-box;
+}
+.dropdown_cc_header_close a{
+   display: inline-block;
+   padding: 8px;
+   cursor: none;
+}
+
+
+.dropdown_wrapper::after{
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   background: #000;
+   position: absolute;
+   content: "";
+   opacity: 0.3;
+   z-index: -1;
+}
+.currency_dropdown{
+   width: 344px;
+   background: #fff;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06), 0px 2px 0px rgba(0, 0, 0, 0.05);
+   border-radius: 16px;
+   padding: 8px 14px;
+}
+.currency_dropdown ul li{
+   display: block;
+   list-style: none;
+   border-bottom: 1px solid #dbdce475;
+   padding: 10px 0px;
+}
+.currency_dropdown ul li:last-child{
+   border: none;
+}
+.currency_dropdown ul li a{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-decoration: none;
+   padding: 10px 18px;
+   border-radius: 8px;
+}
+.currency_dropdown ul li a:hover{
+   background: #EAF2FF;
+}
+.currency_dropdown .currency_country_code{
+   font-weight: 600;
+   font-size: 14px;
+   color: #4D4C52;
+}
+.currency_dropdown .currency_country_info{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.currency_dropdown .currency_country_info .curr_d_name{
+   font-weight: 600;
+   font-size: 14px;
+   color: #9799A3;
+}
+ .curr_d_status{
+    min-width: 40px;
+    text-align: right;
+ }
+
+ @media (min-width: 576px) and (max-width: 767px) {
+   .dropdown_cc_header{
+      display: flex;
+   }
+  .dropdown_wrapper{
+     padding: 13px 0px;
+  }
+  .currency_dropdown{
+     padding: 0px;
+     width: 344px;
+  }
+  .currency_dropdown ul li{
+     padding: 10px 7px;
+  }
+}
+ @media (max-width: 575px) {
+    .dropdown_cc_header{
+       display: flex;
+    }
+   .dropdown_wrapper{
+      padding: 13px 0px;
+   }
+   .currency_dropdown{
+      padding: 0px;
+      width: 93%;
+   }
+   .currency_dropdown ul li{
+      padding: 10px 7px;
+   }
+   .curr_d_status {
+      min-width: 33px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+   .currency_dropdown{
+      padding: 0px;
+      width: 344px;
+   }
+}
