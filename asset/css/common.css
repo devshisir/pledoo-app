@@ -19,3 +19,7 @@ div {
 .text-center{
    text-align: center;
 }
+.c_btn_padding{
+   display: inline-block;
+   padding: 8px;
+}
