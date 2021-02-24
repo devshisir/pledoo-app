@@ -5,6 +5,9 @@
    font-family: 'Montserrat', sans-serif;
    box-sizing: border-box;
 }
+li{
+   list-style: none;
+}
 
 .img-fluid {
    max-width: 100%;

@@ -1,0 +1,26 @@
+.sidebar_header{
+   border-bottom: 2px solid #ededf1bd;
+   padding: 0px 10px;
+}
+.sidebar_link_top{
+   padding: 30px 20px;
+}
+
+.sidebar_link_top ul{}
+.sidebar_link_top ul li {
+   display: block;
+}
+.sidebar_link_top ul li a{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.sidebar_menu_icon{
+   width: 32px;
+   height: 32px;
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}

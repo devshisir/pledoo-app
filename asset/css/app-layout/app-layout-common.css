@@ -1,0 +1,17 @@
+#app_main_wrapper{
+   background: #F1F2F5;
+   min-height: 100vh;
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
+
+.app_sidebar{
+   width: 320px;
+   background: #fff;
+   transition: 0.4s;
+}
+.app_main_container{
+   flex: 1;
+   background: #ddd;
+}
