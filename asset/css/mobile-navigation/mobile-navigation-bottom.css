@@ -1,0 +1,40 @@
+#mobile_navigation_wrapper{
+   min-height: 200vh;
+   background: #F4F3F6;
+}
+
+
+
+/* app_mobile_bottom_navigation */
+.app_mobile_bottom_navigation{
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background: #fff;
+   padding: 15px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0px -4px 16px rgba(0, 0, 0, 0.06);
+   z-index: 1;
+}
+
+.app_mobile_bottom_navigation .mobile_nav_bottom_item a{
+   font-weight: 600;
+   font-size: 10px;
+   color: #C2C5CD;
+   display: block;
+}
+.auth_btn_mobile_middle{
+   width: 68%;
+}
+.app_mobile_bottom_navigation .mobile_nav_bottom_item.auth_btn_mobile_middle a{
+   height: 48px;
+   text-align: center;
+   line-height: 48px;
+   font-weight: 700;
+   font-size: 14px;
+   color: #fff;
+   border-radius: 8px;
+}

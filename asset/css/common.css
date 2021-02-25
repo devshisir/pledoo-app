@@ -8,7 +8,16 @@
 li{
    list-style: none;
 }
-
+a{
+   text-decoration: none;
+}
+.btn_color{
+   background: #1B51F5 !important;
+   color: #fff !important;
+}
+.btn_color:hover {
+   background: #0026F8 !important;
+}
 .img-fluid {
    max-width: 100%;
    height: auto;

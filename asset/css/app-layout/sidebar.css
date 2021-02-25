@@ -1,26 +1,106 @@
 .sidebar_header{
    border-bottom: 2px solid #ededf1bd;
-   padding: 0px 10px;
-}
-.sidebar_link_top{
-   padding: 30px 20px;
+   padding: 0px 14px;
 }
 
-.sidebar_link_top ul{}
+/* sidebar auth top btn */
+.sidebar_auth_btn{
+   padding: 24px;
+   border-bottom: 2px solid #ededf1bd;
+}
+.sidebar_auth_btn ul li{
+   display: block;
+   margin-bottom: 16px;
+}
+.sidebar_auth_btn ul li:last-child{
+   margin-bottom: 0px;
+}
+.sidebar_auth_btn ul li a{
+   width: 100%;
+   display: block;
+   text-align: center;
+   height: 48px;
+   background: #F4F3F6;
+   line-height: 48px;
+   font-weight: 600;
+   font-size: 14px;
+   color: #4D4C52;
+   border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+.sidebar_link_top{
+   padding: 30px 14px;
+}
+
 .sidebar_link_top ul li {
    display: block;
+   height: 48px;
+   line-height: 48px;
 }
 .sidebar_link_top ul li a{
    display: flex;
    justify-content: flex-start;
    align-items: center;
+   font-weight: 600;
+   font-size: 14px;
+   color: #4D4C52;
 }
 
 .sidebar_menu_icon{
-   width: 32px;
-   height: 32px;
+   padding: 8px 14px !important;
    text-align: center;
-   display: flex;
+   display: inline-flex;
    justify-content: space-around;
    align-items: center;
+}
+
+/* more toggle btn  */
+.sidebar_top_link_more{
+   padding: 5px 0px;
+}
+.sidebar_top_link_more a{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   font-weight: 600;
+   font-size: 14px;
+   color: #4D4C52;
+}
+.sidebar_top_link_more .more_toggle_icon{
+   padding: 0px 11px !important;
+   text-align: center;
+   display: inline-flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 48px;
+   line-height: 48px;
+}
+
+/* sidebar_bottom_language_option  */
+.sidebar_bottom_language_option{
+   padding: 25px 16px;
+   border-top: 2px solid #ededf1bd;
+   position: absolute;
+   width: 100%;
+   left: 0;
+   bottom: 0;
+}
+.sidebar_bottom_language_option a{
+   height: 48px;
+   font-weight: 600;
+   font-size: 14px;
+   color: #4D4C52;
+   display: flex;
+   align-items: center;
+}
+.sidebar_bottom_language_option a .sidebar_bottom_lan_icon{
+   display: inline-flex;
+   padding: 11px 14px;
 }

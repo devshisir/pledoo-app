@@ -10,8 +10,63 @@
    width: 320px;
    background: #fff;
    transition: 0.4s;
+   position: relative;
 }
+
 .app_main_container{
-   flex: 1;
-   background: #ddd;
+   min-height: 140vh;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .app_sidebar{
+      width: 35%;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+   .app_sidebar{
+      width: 100%;
+   }
+   .sidebar_bottom_language_option{
+      width: 100%;
+      position: relative !important;
+      margin-top: 100px;
+   }
+   .sidebar_header {
+      padding: 0px 54px !important;
+   }
+   .sidebar_auth_btn{
+      padding: 24px 54px !important;
+   }
+   .sidebar_link_top{
+      padding: 30px 54px !important;
+   }
+   .sidebar_bottom_language_option{
+      padding: 25px 54px !important;
+   }
+}
+
+@media (max-width: 575px) {
+   .app_sidebar{
+      width: 100%;
+   }
+   .sidebar_bottom_language_option{
+      width: 100%;
+      position: relative !important;
+      margin-top: 100px;
+   }
+   .sidebar_header {
+      padding: 0px 24px !important;
+   }
+   .sidebar_auth_btn{
+      padding: 24px 24px !important;
+   }
+   .sidebar_link_top{
+      padding: 30px 24px !important;
+   }
+   .sidebar_bottom_language_option{
+      padding: 25px 24px !important;
+   }
 }
