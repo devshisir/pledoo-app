@@ -13,8 +13,10 @@
    position: relative;
 }
 
+
+
 .app_main_container{
-   min-height: 140vh;
+   min-height: 240vh;
 }
 
 
@@ -40,9 +42,9 @@
    .sidebar_auth_btn{
       padding: 24px 54px !important;
    }
-   .sidebar_link_top{
-      padding: 30px 54px !important;
-   }
+   .sidebar_link_top {
+      padding: 30px 25px !important;
+  }
    .sidebar_bottom_language_option{
       padding: 25px 54px !important;
    }

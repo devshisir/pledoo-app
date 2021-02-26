@@ -1,0 +1,98 @@
+.sub_menu_sidebar_wrapper{
+   width: calc(100% - 112px);
+   left: 112px;
+   position: fixed;
+   top: 0;
+   right: 0;
+   background: rgba(0, 0, 0, 0.473);
+   z-index: 9999;
+   height: 100%;
+}
+
+.sub_menu_sidebar_inner_container{
+   width: 620px;
+   background: #F1F2F5;
+   height: 100vh;
+}
+
+.sub_menu_select_language_header{
+   padding: 21px 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.sub_menu_select_language_header .sub_menu_header_title{
+   flex: 1;
+   text-align: center;
+}
+
+.sub_menu_select_language_header .sub_menu_header_title h4{
+   font-weight: 700;
+   font-size: 14px;
+   color: #9799A3;
+}
+.sub_menu_select_language_header .sub_menu_header_close a{
+   display: flex;
+   align-items: center;
+   font-weight: 600;
+   font-size: 14px;
+   color: #C2C5CD;
+}
+
+.sub_menu_select_language_wrapper{
+   padding: 0px 40px 0px 33px;
+}
+
+.sub_menu_select_language_container{
+   background: #fff;
+   padding: 0px 26px;
+   border-radius: 16px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06), 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.sub_menu_select_language_container_header{
+   padding: 25px 0px;
+   border-bottom: 2px solid #ededf1bd;
+}
+
+.sub_menu_select_language_container_header h4{
+   font-weight: 700;
+   font-size: 19px;
+   color: #4D4C52;
+}
+
+.sub_menu_select_language_container_item_wrap{
+   display: flex;
+   justify-content: flex-start;
+   padding: 30px 0px;
+}
+
+.sub_menu_select_language_container_item_wrap ul{
+   width: 50%;
+}
+
+.sub_menu_select_language_container_item_wrap ul li{
+   display: block;
+   margin-bottom: 15px;
+}
+.sub_menu_select_language_container_item_wrap ul li:last-child{
+   margin: 0;
+}
+.sub_menu_select_language_container_item_wrap ul li a{
+   display: flex;
+   align-items: center;
+   font-weight: 600;
+   font-size: 14px;
+   color: #4D4C52;
+   height: 48px;
+   border-radius: 8px;
+   padding: 0px 0px;
+}
+.sub_menu_select_language_container_item_wrap ul li a:hover{
+   background: #EAF2FF;
+}
+
+.sub_menu_select_language_container_item_wrap ul li a .c_btn_padding{
+   padding: 0px 15px;
+}

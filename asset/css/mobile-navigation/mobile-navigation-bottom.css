@@ -29,7 +29,7 @@
 .auth_btn_mobile_middle{
    width: 68%;
 }
-.app_mobile_bottom_navigation .mobile_nav_bottom_item.auth_btn_mobile_middle a{
+.app_mobile_bottom_navigation .mobile_nav_bottom_item.auth_btn_mobile_middle a.auth_btn_mobile_navigation{
    height: 48px;
    text-align: center;
    line-height: 48px;
@@ -37,4 +37,10 @@
    font-size: 14px;
    color: #fff;
    border-radius: 8px;
+}
+.app_mobile_bottom_navigation .mobile_nav_bottom_item.auth_btn_mobile_middle a.deposit_action_mobile_bottom p{
+   margin-top: 5px;
+   font-weight: 700;
+   font-size: 10px;
+   color: #4D4C52;
 }

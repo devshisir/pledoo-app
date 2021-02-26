@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="./asset/img/favicon.png">
+   <title>Sidebar login levels full width</title>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="./asset/css/common.css">
+   <link rel="stylesheet" href="./asset/css/app-layout/app-layout-common.css">
+   <link rel="stylesheet" href="./asset/css/app-layout/sidebar.css">
+   <link rel="stylesheet" href="./asset/css/component/circle_progress.css">
+   <link rel="stylesheet" href="./asset/css/app-layout/small-sidebar.css">
+   <link rel="stylesheet" href="./asset/css/app-layout/small-sidebar-submenu.css">
+</head>
+
+<body>
+   <!-- start app main wrapper -->
+   <section id="app_main_wrapper">
+      <div class="app_sidebar toggle_side">
+         <div class="app_sidebar_toggle_header_logo">
+            <a href="#">
+               <img src="./asset/img/logo-small.svg" alt="">
+            </a>
+            <div class="app_sidebar_toggle_header_toggle_btn">
+               <a href="#">
+                  <img src="./asset/img/sidebar-icon/toggle-sidebar.svg" alt="">
+               </a>
+            </div>
+         </div>
+         <div class="app_sidebar_toggle_profile_progress">
+            <div class="top_progress">
+               <div class="ko-progress-circle" data-progress="30">
+                  <div class="ko-circle">
+                     <div class="full ko-progress-circle__slice">
+                        <div class="ko-progress-circle__fill"></div>
+                     </div>
+                     <div class="ko-progress-circle__slice">
+                        <div class="ko-progress-circle__fill"></div>
+                        <div class="ko-progress-circle__fill ko-progress-circle__bar"></div>
+                     </div>
+                     <div class="ko_progress_circle_count">
+                        3
+                     </div>
+                  </div>
+               </div>
+               <div class="profile_slide_toggle_next_btn">
+                  <a href="#">
+                     <img src="./asset/img/sidebar-icon/slide_toggle_next.svg" alt="">
+                  </a>
+               </div>
+            </div>
+            <div class="small_side_toggle_progress_info text-center">
+               <p>60 000</p>
+            </div>
+            <div class="app_sidebar_toggle_profile_progress_link">
+               <ul>
+                  <li>
+                     <a href="#">
+                        <img src="./asset/img/sidebar-icon/cash-plus.svg" alt="">
+                     </a>
+                  </li>
+                  <li class="points_bg_link">
+                     <a href="#">
+                        <div class="bg_icon">
+                           <img src="./asset/img/sidebar-icon/points.svg" alt="">
+                        </div>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="app_sidebar_toggle_link_top">
+            <ul class="main_link">
+               <li><a href="#">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                     d="M10 16V8C10 6.9 10.89 6 12 6H21V5C21 3.9 20.1 3 19 3H5C3.89 3 3 3.9 3 5V19C3 20.1 3.89 21 5 21H19C20.1 21 21 20.1 21 19V18H12C10.89 18 10 17.1 10 16ZM13 8C12.45 8 12 8.45 12 9V15C12 15.55 12.45 16 13 16H22V8H13ZM16 13.5C15.17 13.5 14.5 12.83 14.5 12C14.5 11.17 15.17 10.5 16 10.5C16.83 10.5 17.5 11.17 17.5 12C17.5 12.83 16.83 13.5 16 13.5Z"
+                     fill="#9799A3" />
+                  </svg>
+                  </a></li>
+               <li class="active"><a href="#">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <mask id="path-1-inside-1" fill="white">
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M3 8C3 6.89543 3.89543 6 5 6H19C20.1046 6 21 6.89543 21 8V10L3 10V8ZM3 12V19C3 20.1046 3.89543 21 5 21H11V12L3 12ZM13 12V21H19C20.1046 21 21 20.1046 21 19V12L13 12Z"/>
+                     </mask>
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M3 8C3 6.89543 3.89543 6 5 6H19C20.1046 6 21 6.89543 21 8V10L3 10V8ZM3 12V19C3 20.1046 3.89543 21 5 21H11V12L3 12ZM13 12V21H19C20.1046 21 21 20.1046 21 19V12L13 12Z" fill="#9799A3"/>
+                     <path d="M21 10V12H23V10H21ZM3 10H1V12H3L3 10ZM3 12L3 10H1V12H3ZM11 21V23H13V21H11ZM11 12H13V10H11V12ZM13 12V10H11V12H13ZM13 21H11V23H13V21ZM21 12H23V10H21V12ZM5 4C2.79086 4 1 5.79086 1 8H5V8V4ZM19 4H5V8H19V4ZM23 8C23 5.79086 21.2091 4 19 4V8H23ZM23 10V8H19V10H23ZM3 12L21 12V8L3 8L3 12ZM1 8V10H5V8H1ZM1 12V19H5V12H1ZM1 19C1 21.2091 2.79086 23 5 23V19H5H1ZM5 23H11V19H5V23ZM13 21V12H9V21H13ZM11 10L3 10L3 14H11V10ZM11 12V21H15V12H11ZM13 23H19V19H13V23ZM19 23C21.2091 23 23 21.2091 23 19H19V23ZM23 19V12H19V19H23ZM21 10L13 10V14L21 14V10Z" fill="#9799A3" mask="url(#path-1-inside-1)"/>
+                     <mask id="path-3-inside-2" fill="white">
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M14 8C15.6569 8 17 6.65685 17 5C17 3.34315 15.6569 2 14 2C12.3431 2 11 3.34315 11 5V8H14Z"/>
+                     </mask>
+                     <path d="M11 8H9V10H11V8ZM15 5C15 5.55228 14.5523 6 14 6V10C16.7614 10 19 7.76142 19 5H15ZM14 4C14.5523 4 15 4.44772 15 5H19C19 2.23858 16.7614 0 14 0V4ZM13 5C13 4.44772 13.4477 4 14 4V0C11.2386 0 9 2.23858 9 5H13ZM13 8V5H9V8H13ZM14 6H11V10H14V6Z" fill="#9799A3" mask="url(#path-3-inside-2)"/>
+                     <mask id="path-5-inside-3" fill="white">
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M10 8C8.34315 8 7 6.65685 7 5C7 3.34315 8.34315 2 10 2C11.6569 2 13 3.34315 13 5V8H10Z"/>
+                     </mask>
+                     <path d="M13 8H15V10H13V8ZM9 5C9 5.55228 9.44772 6 10 6V10C7.23858 10 5 7.76142 5 5H9ZM10 4C9.44772 4 9 4.44772 9 5H5C5 2.23858 7.23858 0 10 0V4ZM11 5C11 4.44772 10.5523 4 10 4V0C12.7614 0 15 2.23858 15 5H11ZM11 8V5H15V8H11ZM10 6H13V10H10V6Z" fill="#9799A3" mask="url(#path-5-inside-3)"/>
+                     </svg>   
+               </a></li>
+               <li><a href="#">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M12.0005 22C13.1005 22 14.0005 21.1 14.0005 20H10.0005C10.0005 21.1 10.8905 22 12.0005 22ZM18.0005 16V11C18.0005 7.93 16.3605 5.36 13.5005 4.68V4C13.5005 3.17 12.8305 2.5 12.0005 2.5C11.1705 2.5 10.5005 3.17 10.5005 4V4.68C7.63054 5.36 6.00054 7.92 6.00054 11V16L4.71054 17.29C4.08054 17.92 4.52054 19 5.41054 19H18.5805C19.4705 19 19.9205 17.92 19.2905 17.29L18.0005 16Z" fill="#9799A3"/>
+                  </svg>
+               </a></li>
+               <li><a href="#">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 5C13.66 5 15 6.34 15 8C15 9.66 13.66 11 12 11C10.34 11 9 9.66 9 8C9 6.34 10.34 5 12 5ZM12 19.2C9.5 19.2 7.29 17.92 6 15.98C6.03 13.99 10 12.9 12 12.9C13.99 12.9 17.97 13.99 18 15.98C16.71 17.92 14.5 19.2 12 19.2Z" fill="#9799A3"/>
+                  </svg>
+               </a></li>
+               <li><a href="#">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM19.46 9.12L16.68 10.27C16.17 8.91 15.1 7.83 13.73 7.33L14.88 4.55C16.98 5.35 18.65 7.02 19.46 9.12ZM12 15C10.34 15 9 13.66 9 12C9 10.34 10.34 9 12 9C13.66 9 15 10.34 15 12C15 13.66 13.66 15 12 15ZM9.13 4.54L10.3 7.32C8.92 7.82 7.83 8.91 7.32 10.29L4.54 9.13C5.35 7.02 7.02 5.35 9.13 4.54ZM4.54 14.87L7.32 13.72C7.83 15.1 8.91 16.18 10.29 16.68L9.12 19.46C7.02 18.65 5.35 16.98 4.54 14.87ZM14.88 19.46L13.73 16.68C15.1 16.17 16.18 15.09 16.68 13.71L19.46 14.88C18.65 16.98 16.98 18.65 14.88 19.46Z" fill="#9799A3"/>
+                  </svg>
+               </a></li>
+            </ul>
+            <ul class="more_link_toggle">
+               <li><a href="#">
+                  <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M2.13047 0.710469L6.01047 4.59047L9.89047 0.71047C10.2805 0.32047 10.9105 0.320471 11.3005 0.710471C11.6905 1.10047 11.6905 1.73047 11.3005 2.12047L6.71047 6.71047C6.32047 7.10047 5.69047 7.10047 5.30047 6.71047L0.710468 2.12047C0.320469 1.73047 0.320469 1.10047 0.710469 0.710469C1.10047 0.330469 1.74047 0.320469 2.13047 0.710469Z" fill="#9799A3"/>
+                  </svg>   
+               </a></li>
+            </ul>
+         </div>
+         <div class="app_sidebar_toggle_signout_btn text-center">
+            <a href="#">  
+               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.79 20.29C15.18 20.68 15.81 20.68 16.2 20.29L19.79 16.7C20.18 16.31 20.18 15.68 19.79 15.29L16.2 11.7C15.81 11.31 15.18 11.31 14.79 11.7C14.4 12.09 14.4 12.72 14.79 13.11L16.67 15H8C7.45 15 7 15.45 7 16C7 16.55 7.45 17 8 17H16.67L14.79 18.88C14.4 19.27 14.41 19.91 14.79 20.29ZM23 7H9C7.89 7 7 7.9 7 9V12C7 12.55 7.45 13 8 13C8.55 13 9 12.55 9 12V10C9 9.45 9.45 9 10 9H22C22.55 9 23 9.45 23 10V22C23 22.55 22.55 23 22 23H10C9.45 23 9 22.55 9 22V20C9 19.45 8.55 19 8 19C7.45 19 7 19.45 7 20V23C7 24.1 7.9 25 9 25H23C24.1 25 25 24.1 25 23V9C25 7.9 24.1 7 23 7Z" fill="#C2C5CD"/>
+               </svg>
+            </a>
+         </div>
+      </div>
+      <div class="sub_menu_sidebar_wrapper">
+         <div class="sub_menu_sidebar_inner_container">
+            <div class="sub_menu_select_language_header">
+               <div class="sub_menu_header_title">
+                  <h4>Language</h4>
+               </div>
+               <div class="sub_menu_header_close">
+                  <a href="#">Close <img class="c_btn_padding" src="./asset/img/icons/close.svg" alt=""></a>
+               </div>
+            </div>
+            <div class="sub_menu_select_language_wrapper">
+               <div class="sub_menu_select_language_container">
+                  <div class="sub_menu_select_language_container_header">
+                     <h4>Select Your Language</h4>
+                  </div>
+                  <div class="sub_menu_select_language_container_item_wrap">
+                     <ul>
+                        <li><a href="#"><img class="c_btn_padding" src="./asset/img/language-flug/english.svg" alt=""> English</a></li>
+                        <li><a href="#"><img class="c_btn_padding" src="./asset/img/language-flug/dansk.svg" alt=""> Dansk</a></li>
+                        <li><a href="#"><img class="c_btn_padding" src="./asset/img/language-flug/norsk.svg" alt=""> Norsk</a></li>
+                        <li><a href="#"><img class="c_btn_padding" src="./asset/img/language-flug/portuges.svg" alt=""> Português</a></li>
+                        <li><a href="#"><img class="c_btn_padding" src="./asset/img/language-flug/pycc.svg" alt=""> Русский</a></li>
+                     </ul>
+                     <ul>
+                        <li><a href="#"><img class="c_btn_padding" src="./asset/img/language-flug/deutesh.svg" alt=""> Deutsch</a></li>
+                        <li><a href="#"><img class="c_btn_padding" src="./asset/img/language-flug/suomi.svg" alt=""> Suomi</a></li>
+                        <li><a href="#"><img class="c_btn_padding" src="./asset/img/language-flug/polski.svg" alt=""> Polski</a></li>
+                        <li><a href="#"><img class="c_btn_padding" src="./asset/img/language-flug/esponal.svg" alt=""> Español</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="app_main_container">
+
+      </div>
+   </section>
+   <!-- end app main wrapper -->
+
+
+
+
+
+
+
+
+</body>
+
+</html>

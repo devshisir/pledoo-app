@@ -1,0 +1,161 @@
+.app_sidebar.toggle_side{
+   width: 112px;
+}
+
+.app_sidebar_toggle_header_logo{
+   text-align: center;
+   border-bottom: 2px solid #ededf1bd;
+   padding: 15px 0px;
+   position: relative;
+}
+
+.app_sidebar_toggle_header_toggle_btn {
+   position: absolute;
+   top: 50%;
+   right: -15px;
+   transform: translateY(-50%);
+   z-index: 99999999;
+}
+
+.app_sidebar_toggle_profile_progress{
+   padding: 40px 0px 0px 0px;
+   position: relative;
+}
+
+.app_sidebar_toggle_profile_progress .top_progress{
+   position: relative;
+}
+
+.small_side_toggle_progress_info{
+   margin-top: 20px;
+}
+
+.small_side_toggle_progress_info p{
+   font-weight: 600;
+   font-size: 14px;
+   color: #817F89;
+}
+
+.profile_slide_toggle_next_btn{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: -15px;
+   z-index: 999999999999;
+}
+
+.app_sidebar_toggle_profile_progress_link{
+   padding-top: 40px;
+   padding-bottom: 20px;
+   border-bottom: 2px solid #ededf1bd;
+}
+.app_sidebar_toggle_profile_progress_link ul{}
+.app_sidebar_toggle_profile_progress_link ul li {
+   display: block;
+   margin-bottom: 10px;
+}
+.app_sidebar_toggle_profile_progress_link ul li:last-child{
+   margin-bottom: 0px;
+}
+.app_sidebar_toggle_profile_progress_link ul li a{
+   height: 64px;
+    width: 64px;
+    background: #EEF9EC;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 64px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_sidebar_toggle_profile_progress_link ul li a .bg_icon{
+   height: 32px;
+   width: 32px;
+   background: #fff;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06), 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.app_sidebar_toggle_profile_progress_link ul li.points_bg_link a{
+   background: #EFEEFF;
+}
+
+.app_sidebar_toggle_link_top{
+   padding: 20px 0px;
+   min-height: 100vh;
+}
+
+.app_sidebar_toggle_link_top ul.main_link li{
+   display: block;
+   margin-bottom: 10px;
+}
+
+.app_sidebar_toggle_link_top ul.main_link li a{
+   height: 48px;
+   width: 64px;
+   text-align: center;
+   line-height: 48px;
+   border-radius: 8px;
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+}
+
+.app_sidebar_toggle_link_top ul.main_link li.active a{
+   background: #EAF2FF;
+}
+
+.app_sidebar_toggle_link_top ul.main_link li.active a svg path{
+   fill: #1B51F5;
+}
+
+.app_sidebar_toggle_link_top ul.main_link li a:hover{
+   background: #EAF2FF;
+}
+
+.app_sidebar_toggle_link_top ul.main_link li a:hover svg path{
+   fill: #1B51F5;
+}
+
+.app_sidebar_toggle_link_top ul.more_link_toggle{
+   padding-top: 10px;
+}
+
+.app_sidebar_toggle_link_top ul.more_link_toggle li a{
+   height: 32px;
+   width: 32px;
+   background: #F4F3F6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   border-radius: 50%;
+}
+
+.app_sidebar_toggle_link_top ul.more_link_toggle li a:hover{
+   background: #EAF2FF;
+}
+
+.app_sidebar_toggle_link_top ul.more_link_toggle li a:hover svg path{
+   fill: #1B51F5;
+}
+
+.app_sidebar_toggle_signout_btn{
+   border-top: 2px solid #ededf1bd;
+   padding: 20px 0px;
+}
+
+.app_sidebar_toggle_signout_btn a{
+   display: block;
+}
+
+.app_sidebar_toggle_signout_btn a:hover svg path{
+   fill: #1B51F5;
+}

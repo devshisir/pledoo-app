@@ -1,0 +1,97 @@
+.language_nvigation_mobile_wrapper{
+   min-height: 100vh;
+   background: #C2C5CD;
+   display: flex;
+   justify-content: center;
+   padding: 20px 0px;
+}
+
+.language_nvigation_mobile_container{
+   width: 360px;
+   background: #fff;
+   height: min-content;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06), 0px 2px 0px rgba(0, 0, 0, 0.05);
+   border-radius: 16px;
+}
+
+.language_nvigation_mobile_header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   background: #F1F2F5;
+   border-radius: 16px 16px 0px 0px;
+   padding: 5px 10px;
+}
+
+.language_nvigation_mobile_header a{
+   display: block;
+}
+
+.language_nvigation_mobile_header .title{
+   flex: 1;
+   text-align: center;
+}
+
+.language_nvigation_mobile_header .title h4{
+   font-weight: 700;
+   font-size: 16px;
+   color: #9799A3;
+}
+
+.language_nvigation_mobile_select_box{
+   padding: 25px 25px;
+}
+
+.language_nvigation_mobile_select_box ul li{
+   display: block;
+   margin-bottom: 12px;
+}
+
+.language_nvigation_mobile_select_box ul li:last-child{
+   margin: 0;
+}
+
+.language_nvigation_mobile_select_box ul li a{
+   display: flex;
+   align-items: center;
+   font-weight: 600;
+   font-size: 14px;
+   color: #4D4C52;
+   height: 48px;
+   border-radius: 8px;
+}
+
+.language_nvigation_mobile_select_box ul li a:hover{
+   background: #EAF2FF;
+}
+
+.language_nvigation_mobile_select_box ul li a .c_btn_padding{
+   padding: 0px 15px;
+}
+
+@media (max-width: 575px) {
+   .language_nvigation_mobile_wrapper{
+      padding: 0px;
+   }
+   .language_nvigation_mobile_container{
+      width: 100%;
+      border-radius: 0px;
+   }
+   .language_nvigation_mobile_header{
+      border-radius: 0px;
+   }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+   .language_nvigation_mobile_wrapper{
+      padding: 20px 0px;
+   }
+   .language_nvigation_mobile_container{
+      width: 360px;
+      border-radius: 16px;
+   }
+   .language_nvigation_mobile_header{
+      border-radius: 16px 16px 0px 0px;
+   }
+}
