@@ -24,6 +24,8 @@ a{
 }
 html,body{
    box-sizing: border-box;
+   height: 100%;
+}
 }
 div {
    box-sizing: border-box;
@@ -34,4 +36,7 @@ div {
 .c_btn_padding{
    display: inline-block;
    padding: 8px;
+}
+html {
+    min-height: 100%;
 }
