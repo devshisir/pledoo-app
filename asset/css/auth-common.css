@@ -1,3 +1,7 @@
+.back_auth, .close_auth {
+   min-width: 40px;
+}
+
 
 .auth_main_wrapper {
    display: flex;
@@ -10,8 +14,8 @@
    flex-direction: column;
    justify-content: space-between;
    padding: 20px 80px 40px 80px;
+   min-height: 100vh;
    max-height: 100vh;
-   overflow-y: scroll;
 }
 
 @-moz-document url-prefix() { /* Disable scrollbar Firefox */
@@ -203,7 +207,7 @@
    }
 
    .auth_left_form {
-      padding: 50px 26px;
+      padding: 24px 24px;
    }
 
    .auth_footer {
@@ -215,7 +219,7 @@
 
    .auth_footer::after {
       height: 1px;
-      width: 80%;
+      width: calc(100% - 48px);
       top: 0;
       left: 0;
       right: 0;
