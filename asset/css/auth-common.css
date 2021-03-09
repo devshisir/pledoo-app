@@ -165,7 +165,7 @@
    }
 
    .auth_right_banar img {
-      height: 100vh;
+      height: 100%;
    }
 
    .auth_footer {
@@ -222,6 +222,8 @@
 
    .auth_left_form {
       padding: 24px 24px;
+      max-width: 100%;
+      width: 100%;
    }
 
    .auth_footer {
