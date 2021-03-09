@@ -5,7 +5,7 @@
    color: #4D4C52;
 }
 .for_pass_email_content .top_info p{
-   margin-top: 30px;
+   margin-top: 48px;
    font-weight: 500;
    font-size: 14px;
    line-height: 24px;
@@ -13,7 +13,7 @@
 }
 
 .for_pass_email_content .f_pass_form_form{
-   margin: 40px 0px;
+   margin: 48px 0px;
 }
 .for_pass_email_content .f_pass_form_form .input_box{
    width: 312px;
@@ -82,6 +82,7 @@
 }
 .for_pass_email_content .f_pass_terms_form p a{
    color: #C2C5CD;
+   text-decoration: underline;
 }
 
 .for_pass_email_content .f_pass_terms_form p a:hover{
@@ -95,6 +96,12 @@
 }
 
 @media (max-width: 575px) {
+   .for_pass_email_content .top_info p{
+      margin-top: 24px;
+   }
+   .for_pass_email_content .f_pass_form_form{
+   margin: 24px 0px;
+   }
    .for_pass_email_content .f_pass_form_form .input_box {
       width: 100%;
    }
