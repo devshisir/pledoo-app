@@ -90,9 +90,6 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-   .for_pass_email_content {
-      padding: 60px 0px;
-   }
 }
 
 @media (max-width: 575px) {
@@ -108,8 +105,5 @@
 
    .for_pass_email_content .f_pass_form_form .form_submit{
       width: 100%;
-   }
-   .for_pass_email_content {
-      padding: 30px 0px;
    }
 }
