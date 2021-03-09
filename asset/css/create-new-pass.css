@@ -37,7 +37,7 @@
 }
 
 .new_pass_form{
-   padding-top: 20px;
+   padding: 24px;
 }
 
 .new_pass_form .top_title h3{
@@ -53,13 +53,8 @@
    color: #817F89;
 }
 
-.new_pass_form_wrapper{
-   padding-top: 30px;
-   padding-bottom: 25px;
-}
-
 .new_pass_form_wrapper .input_box {
-   width: 312px;
+   width: 100%;
    position: relative;
    margin: 0 auto;
    margin-top: 25px;
@@ -107,7 +102,7 @@
 }
 
 .new_pass_form_wrapper .form_submit{
-   width: 312px;
+   width: 100%;
    position: relative;
    margin: 0 auto;
    margin-top: 20px;
@@ -159,18 +154,5 @@
       text-align: center;
       flex: 1;
       padding-left: 20px;
-   }
-   .new_pass_form{
-      padding: 40px 0px;
-   }
-   .new_pass_form_wrapper{
-      padding-left: 20px;
-      padding-right: 20px;
-   }
-   .new_pass_form_wrapper .input_box{
-      width: 97%;
-   }
-   .new_pass_form_wrapper .form_submit{
-      width: 97%;
    }
 }
